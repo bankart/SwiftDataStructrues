@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E309595E20680FE600127FEF /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E309595D20680FE600127FEF /* BinaryTree.swift */; };
+		E345C0542066BFDC0037B2F0 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345C0532066BFDC0037B2F0 /* Tree.swift */; };
+		E347EC3820736B2900D871D2 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347EC3720736B2900D871D2 /* BinarySearchTree.swift */; };
+		E347EC3A20736BE200D871D2 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347EC3920736BE200D871D2 /* LinkedList.swift */; };
+		E347EC3D20736CEE00D871D2 /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347EC3C20736CEE00D871D2 /* RingBuffer.swift */; };
+		E394428520625646009A3B30 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394428420625646009A3B30 /* Stack.swift */; };
 		E398701F2061EF3D00B75875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E398701E2061EF3D00B75875 /* AppDelegate.swift */; };
 		E39870212061EF3D00B75875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39870202061EF3D00B75875 /* ViewController.swift */; };
 		E39870242061EF3D00B75875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39870222061EF3D00B75875 /* Main.storyboard */; };
 		E39870262061EF3D00B75875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39870252061EF3D00B75875 /* Assets.xcassets */; };
 		E39870292061EF3D00B75875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39870272061EF3D00B75875 /* LaunchScreen.storyboard */; };
 		E39870342061EF3D00B75875 /* SwiftDataStructruesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39870332061EF3D00B75875 /* SwiftDataStructruesTests.swift */; };
+		E39870452061EFB100B75875 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39870442061EFB100B75875 /* Heap.swift */; };
+		E398704720622F7800B75875 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E398704620622F7800B75875 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E309595D20680FE600127FEF /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		E345C0532066BFDC0037B2F0 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		E347EC3720736B2900D871D2 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		E347EC3920736BE200D871D2 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		E347EC3C20736CEE00D871D2 /* RingBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
+		E394428420625646009A3B30 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		E398701B2061EF3D00B75875 /* SwiftDataStructrues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataStructrues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E398701E2061EF3D00B75875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E39870202061EF3D00B75875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +50,8 @@
 		E398702F2061EF3D00B75875 /* SwiftDataStructruesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataStructruesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39870332061EF3D00B75875 /* SwiftDataStructruesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStructruesTests.swift; sourceTree = "<group>"; };
 		E39870352061EF3D00B75875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39870442061EFB100B75875 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		E398704620622F7800B75875 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E347EC3620736B0400D871D2 /* BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				E347EC3720736B2900D871D2 /* BinarySearchTree.swift */,
+			);
+			path = BinarySearchTree;
+			sourceTree = "<group>";
+		};
+		E347EC3B20736CCC00D871D2 /* RingBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				E347EC3C20736CEE00D871D2 /* RingBuffer.swift */,
+			);
+			path = RingBuffer;
+			sourceTree = "<group>";
+		};
 		E39870122061EF3C00B75875 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +109,14 @@
 		E398701D2061EF3D00B75875 /* SwiftDataStructrues */ = {
 			isa = PBXGroup;
 			children = (
+				E347EC3B20736CCC00D871D2 /* RingBuffer */,
+				E347EC3620736B0400D871D2 /* BinarySearchTree */,
+				E39870432061EFA100B75875 /* Heap */,
+				E39870422061EF8900B75875 /* Queue */,
+				E39870412061EF7E00B75875 /* Stack */,
+				E39870402061EF7300B75875 /* BinaryTree */,
+				E398703F2061EF6900B75875 /* LinkedList */,
+				E398703E2061EF5A00B75875 /* Tree */,
 				E398701E2061EF3D00B75875 /* AppDelegate.swift */,
 				E39870202061EF3D00B75875 /* ViewController.swift */,
 				E39870222061EF3D00B75875 /* Main.storyboard */,
@@ -94,6 +134,54 @@
 				E39870352061EF3D00B75875 /* Info.plist */,
 			);
 			path = SwiftDataStructruesTests;
+			sourceTree = "<group>";
+		};
+		E398703E2061EF5A00B75875 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				E345C0532066BFDC0037B2F0 /* Tree.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		E398703F2061EF6900B75875 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				E347EC3920736BE200D871D2 /* LinkedList.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		E39870402061EF7300B75875 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				E309595D20680FE600127FEF /* BinaryTree.swift */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		E39870412061EF7E00B75875 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				E394428420625646009A3B30 /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		E39870422061EF8900B75875 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				E398704620622F7800B75875 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		E39870432061EFA100B75875 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				E39870442061EFB100B75875 /* Heap.swift */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39870452061EFB100B75875 /* Heap.swift in Sources */,
+				E394428520625646009A3B30 /* Stack.swift in Sources */,
+				E347EC3820736B2900D871D2 /* BinarySearchTree.swift in Sources */,
+				E347EC3A20736BE200D871D2 /* LinkedList.swift in Sources */,
 				E39870212061EF3D00B75875 /* ViewController.swift in Sources */,
+				E309595E20680FE600127FEF /* BinaryTree.swift in Sources */,
+				E347EC3D20736CEE00D871D2 /* RingBuffer.swift in Sources */,
+				E345C0542066BFDC0037B2F0 /* Tree.swift in Sources */,
 				E398701F2061EF3D00B75875 /* AppDelegate.swift in Sources */,
+				E398704720622F7800B75875 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
