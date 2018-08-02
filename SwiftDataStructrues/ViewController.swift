@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    private func foo() {
+        print(#function)
+    }
 }
 
